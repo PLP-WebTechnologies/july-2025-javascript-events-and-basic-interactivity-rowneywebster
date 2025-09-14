@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Fun Interactive Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Fun Interactive Page</h1>
+        <button id="change-color">Change Background Color</button>
+    </header>
+
+    <main>
+        <!-- Section 1: Interactive Counter -->
+        <section id="counter-section">
+            <h2>Magic Click Counter</h2>
+            <p>You have pressed the magic button <span id="magic-count">0</span> times!</p>
+            <button id="magic-btn">Press Me!</button>
+        </section>
+
+        <!-- Section 2: Sign Up Form -->
+        <section id="form-section">
+            <h2>Join the Fun!</h2>
+            <form id="fun-form" novalidate>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" placeholder="Your name">
+
+                <label for="user-email">Email:</label>
+                <input type="text" id="user-email" name="user-email" placeholder="example@domain.com">
+
+                <label for="user-age">Age:</label>
+                <input type="number" id="user-age" name="user-age" placeholder="Your age">
+
+                <button type="submit">Sign Up</button>
+            </form>
+            <p id="feedback"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Interactive page experiment © 2025</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
